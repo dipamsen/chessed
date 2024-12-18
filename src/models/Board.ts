@@ -276,7 +276,7 @@ export class Board {
       this.pieces.map((p) => p.clone()),
       this.totalTurns,
       this.currentTeam,
-      this.loseOrder
+      this.loseOrder.slice()
     )
   }
 }
